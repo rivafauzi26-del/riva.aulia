@@ -1,0 +1,221 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+  <title>Bootstrap Example</title>    
+  <meta charset="utf-8">    
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
+</head>    
+<body>    
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">    
+  <div class="container">    
+    <a class="navbar-brand" href="#" style="font-size:30px">Menit.com</a>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNews" aria-controls="navbarNews" aria-expanded="false" aria-label="Toggle navigation">    
+      <span class="navbar-toggler-icon"></span>    
+    </button>    
+    <div class="collapse navbar-collapse" id="navbarNews">    
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">    
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>  
+        <li class="nav-item"><a class="nav-link" href="#">Nasional</a></li>    
+        <li class="nav-item"><a class="nav-link" href="#">Internasional</a></li>    
+        <li class="nav-item"><a class="nav-link" href="#">Olahraga</a></li>    
+        <li class="nav-item"><a class="nav-link" href="#">Teknologi</a></li>    
+        <li class="nav-item"><a class="nav-link" href="#">Hiburan</a></li>    
+      </ul>    
+    </div>    
+  </div>    
+</nav>    
+    
+<div class="bg-danger text-white py-2">    
+  <div class="container d-flex justify-content-between align-items-center">    
+    <marquee behavior="scroll" direction="left" class="fw-semibold">    
+      [Populer] DPR sahkan RUU baru tentang ekonomi • Pemilu 2025 semakin dekat • Banjir besar rendam kawasan Jakarta Utara • MBG populer di media sosial • Lapangan kerja baru dibuka untuk UMKM    
+    </marquee>    
+    <div id="clock" class="fw-bold px-2 text-end" style="width:300px"></div>    
+  </div>    
+</div>    
+    
+<div class="container mt-4">    
+  <div class="row">    
+    <div class="col-md-8">    
+      <div id="carouselNews" class="carousel slide" data-bs-ride="carousel">    
+        <div class="carousel-inner">    
+          <div class="carousel-item active">    
+            <img src="images/gambar1.jpg" class="d-block w-100 rounded" alt="DPR">    
+            <div class="carousel-caption d-md-block bg-dark bg-opacity-50 rounded">    
+              <h5>Sidang DPR Bahas RUU Ekonomi Baru</h5>    
+              <p>DPR mengesahkan undang-undang baru untuk memperkuat perekonomian nasional.</p>    
+            </div>    
+          </div>    
+    
+          <div class="carousel-item">    
+            <img src="images/gambar2.jpg" class="d-block w-100 rounded" alt="Pemilu">    
+            <div class="carousel-caption d-md-block bg-dark bg-opacity-50 rounded">    
+              <h5>Semarak Pemilu 2025</h5>    
+              <p>Rakyat bersiap menyambut pesta demokrasi terbesar tahun depan.</p>    
+            </div>    
+          </div>    
+    
+          <div class="carousel-item">    
+            <img src="images/gambar3.jpg" class="d-block w-100 rounded" alt="Banjir">    
+            <div class="carousel-caption d-md-block bg-dark bg-opacity-50 rounded">    
+              <h5>Banjir Besar Melanda Jakarta</h5>    
+              <p>Hujan deras selama dua hari membuat sejumlah wilayah kaebanjiran</p>    
+            </div>    
+          </div>    
+    
+          <div class="carousel-item">    
+            <img src="images/gambar4.jpg" class="d-block w-100 rounded" alt="Makanan MBG">    
+            <div class="carousel-caption d-md-block bg-dark bg-opacity-50 rounded">    
+              <h5>MBG Viral di Media Sosial</h5>    
+              <p>Warung sederhana ini menarik perhatian dengan menu khas omprengnya.</p>    
+            </div>    
+          </div>    
+    
+          <div class="carousel-item">    
+            <img src="images/gambar5.jpg" class="d-block w-100 rounded" alt="Pekerjaan">    
+            <div class="carousel-caption d-md-block bg-dark bg-opacity-50 rounded">    
+              <h5>Lapangan Kerja Baru Dibuka</h5>    
+              <p>Pemerintah umumkan 50.000 peluang kerja baru untuk masyarakat.</p>    
+            </div>    
+          </div>    
+        </div>    
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">    
+          <span class="carousel-control-prev-icon"></span>    
+        </button>    
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">    
+          <span class="carousel-control-next-icon"></span>    
+        </button>    
+      </div>    
+    </div>    
+    
+    <div class="col-md-4">    
+      <div class="card p-3 bg-dark h-100">    
+        <h2 class="text-center text-light">Berita Populer</h2>    
+        <a href="#" class="btn btn-light mb-1 p-3">DPR sahkan RUU baru tentang ekonomi</a>    
+        <a href="#" class="btn btn-light mb-1 p-3">Pemilu 2025 disambut antusias oleh masyarakat</a>    
+        <a href="#" class="btn btn-light mb-1 p-3">Banjir besar rendam kawasan Jakarta Utara</a>    
+        <a href="#" class="btn btn-light mb-1 p-3">MBG viral karena menu ompreng unik</a>    
+        <a href="#" class="btn btn-light mb-1 p-3">Pemerintah buka 50 ribu lapangan kerja baru</a>    
+      </div>    
+    </div>    
+  </div>    
+  
+  <hr>  
+  <h4>Berita Utama</h4>  
+  <hr>  
+  
+  <div class="row">  
+    <div class="col-md-4 mb-4">  
+      <div class="card h-100 shadow-sm">  
+        <img src="images/gambar1.jpg" class="card-img-top" alt="Rapat DPR">  
+        <div class="card-body">  
+          <h6 class="card-title">Rapat DPR Bahas RUU Strategis</h6>  
+          <p>Sidang DPR berlangsung hangat saat membahas sejumlah RUU penting yang berdampak luas bagi masyarakat.</p>  
+          <a href="berita-rapat-dpr.html" class="nav-link text-primary">Selengkapnya...</a>  
+        </div>  
+      </div>  
+    </div>  
+
+    <div class="col-md-4 mb-4">  
+      <div class="card h-100 shadow-sm">  
+        <img src="images/gambar2.jpg" class="card-img-top" alt="Pemilu">  
+        <div class="card-body">  
+          <h6 class="card-title">Pemilu 2024 Sangat sengit</h6>  
+          <p>KPU menyatakan adanya praktek nepotisme </p>  
+          <a href="berita-pemilu-2024.html" class="nav-link text-primary">Selengkapnya...</a>  
+        </div>  
+      </div>  
+    </div>  
+
+    <div class="col-md-4 mb-4">  
+      <div class="card h-100 shadow-sm">  
+        <img src="images/gambar3.jpg" class="card-img-top" alt="Banjir">  
+        <div class="card-body">  
+          <h6 class="card-title">Banjir Besar Melanda Jakarta</h6>  
+          <p>Curah hujan tinggi menyebabkan sejumlah wilayah di Jakarta terendam hingga setengah meter.</p>  
+          <a href="banjir-rendam-jakarta.html" class="nav-link text-primary">Selengkapnya...</a>  
+        </div>  
+      </div>  
+    </div>  
+    
+    <div class="col-md-4 mb-4">  
+      <div class="card h-100 shadow-sm">  
+        <img src="images/gambar4.jpg" class="card-img-top" alt="Kebajikan MBG">  
+        <div class="card-body">  
+          <h6 class="card-title">Kebajikan MBG dari Pemerintah</h6>  
+          <p>Pemerintah memberikan dukungan khusus terhadap program MBG untuk meningkatkan kesejahteraan masyarakat kecil.</p>  
+          <a href="berita-kebajikan-mbg.html" class="nav-link text-primary">Selengkapnya...</a>  
+        </div>  
+      </div>  
+    </div>  
+
+    <div class="col-md-4 mb-4">  
+      <div class="card h-100 shadow-sm">  
+        <img src="images/gambar5.jpg" class="card-img-top" alt="Dunia Kerja">  
+        <div class="card-body">  
+          <h6 class="card-title">Keriuhan dalam Dunia Kerja</h6>  
+          <p>Pasar tenaga kerja memanas dengan banyaknya peluang baru, namun tantangan kompetisi semakin ketat.</p>  
+          <a href="berita-keriuhan-dunia-kerja.html" class="nav-link text-primary">Selengkapnya...</a>  
+        </div>  
+      </div>  
+    </div>  
+
+    <div class="col-md-4 mb-4">  
+      <div class="card h-100 shadow-sm">  
+        <img src="images/gambar6.jpg" class="card-img-top" alt="Kebijakan Ekonomi Baru">  
+        <div class="card-body">  
+          <h6 class="card-title">Kebijakan Ekonomi Baru 2025</h6>  
+          <p>Pemerintah resmi meluncurkan kebijakan ekonomi 2025 dengan fokus pada inovasi, digitalisasi, dan kesejahteraan rakyat.</p>  
+          <a href="berita-kebijakan-ekonomi-baru-2025.html" class="nav-link text-primary">Selengkapnya...</a>  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+</div>  
+
+<footer class="bg-dark text-light mt-5">  
+  <div class="container py-4">  
+    <div class="row">  
+      <div class="col-md-4">  
+        <h5>Menit.com</h5>  
+        <p>Portal berita terpercaya yang menyajikan informasi terkini, akurat, dan mendalam dari berbagai bidang.</p>  
+      </div>  
+      <div class="col-md-4">  
+        <h5>Kategori</h5>  
+        <ul class="list-unstyled">  
+          <li><a href="#" class="nav-link text-light">Nasional</a></li>  
+          <li><a href="#" class="nav-link text-light">Internasional</a></li>  
+          <li><a href="#" class="nav-link text-light">Teknologi</a></li>  
+          <li><a href="#" class="nav-link text-light">Olahraga</a></li>  
+          <li><a href="#" class="nav-link text-light">Hiburan</a></li>  
+        </ul>  
+      </div>  
+      <div class="col-md-4">  
+        <h5>Kontak</h5>  
+        <p>Email: redaksi@menit.com<br>Telepon: +62 812 3456 7890</p>  
+        <div>  
+          <a href="#" class="text-light me-3">Facebook</a>  
+          <a href="#" class="text-light me-3">Twitter</a>  
+          <a href="#" class="text-light">Instagram</a>  
+        </div>  
+      </div>  
+    </div>  
+    <hr class="border-light">  
+    <p class="text-center mb-0">© 2025 Menit.com. All rights reserved.</p>  
+  </div>  
+</footer>  
+  
+<script>  
+  // JAM REALTIME  
+  setInterval(() => {    
+    const now = new Date();    
+    document.getElementById('clock').textContent = now.toLocaleString('id-ID');    
+  }, 1000);  
+</script>  
+  
+</body>    
+</html>
